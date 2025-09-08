@@ -1,0 +1,17 @@
+# --------------- CONVERSÕES DOS ARQUIVOS ---------------
+apache-beam[gcp]
+pandas
+Pillow
+reportlab
+matplotlib
+google-cloud-storage
+chardet
+fpdf 
+extract-msg
+
+# --------------- INGESTÃO DOS DADOS ---------------
+O365 
+google-cloud-storage 
+requests 
+tqdm
+msal
