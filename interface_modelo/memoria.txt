@@ -1,0 +1,6 @@
+user:  admin
+senha: Cbm123**
+email: admin@multiedro.com.br
+
+# NÃO DEIXAR SUBIR ARQUIVOS COM CARACTERES ESPECIAIS PARA O BUCKET 
+# Remover espaços e padronizar os nomes todos em minusculo
