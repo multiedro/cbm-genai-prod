@@ -6,7 +6,7 @@ Este repositório contém duas etapas principais que utilizam tecnologias do Goo
 
 Esta etapa utiliza o Apache Beam para orquestrar um pipeline de processamento de dados em lote no Google Cloud Dataflow. A principal função do pipeline é monitorar uma pasta no Google Cloud Storage (GCS), converter diversos formatos de arquivo para o formato PDF e salvar os arquivos resultantes em outra pasta no mesmo bucket.
 
-# 🏛️ Visão Geral da Arquitetura
+## 🏛️ Visão Geral da Arquitetura
 
 O processo funciona da seguinte maneira:
 
@@ -20,7 +20,7 @@ Cada worker utiliza uma imagem Docker customizada (Dockerfile), que contém toda
 
 O pipeline lê os arquivos de uma pasta de origem no GCS, distribui as tarefas de conversão entre os workers e, por fim, salva os PDFs gerados em uma pasta de destino.
 
-# 📄 Descrição dos Arquivos
+## 📄 Descrição dos Arquivos
 
 - `formats_converter.py`: Arquivo principal que contém toda a lógica do pipeline de dados com Apache Beam. Ele lista, filtra e processa arquivos do GCS, utilizando LibreOffice e bibliotecas Python para a conversão para PDF.
 
@@ -28,7 +28,7 @@ O pipeline lê os arquivos de uma pasta de origem no GCS, distribui as tarefas d
 
 - `requirements.txt`: Lista as bibliotecas Python necessárias para o pipeline de conversão, como apache-beam[gcp], Pillow, reportlab, etc.
 
-# 🚀 Como Executar a Etapa
+## 🚀 Como Executar a Etapa
 
 ### Pré-requisitos
 
@@ -69,7 +69,7 @@ O progresso do job pode ser acompanhado na interface do Dataflow no Console do G
 
 Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit. A aplicação permite que os usuários façam upload de documentos, que são então indexados no Vertex AI Search. Os usuários podem fazer perguntas em linguagem natural, e o chatbot utiliza um modelo generativo (Gemini) com a técnica de RAG (Retrieval-Augmented Generation) para responder com base no conteúdo dos documentos.
 
-# 🏛️ Visão Geral da Arquitetura
+## 🏛️ Visão Geral da Arquitetura
 
 - A interface do usuário é construída com Streamlit (`app.py`, `main.py`).
 
@@ -87,7 +87,7 @@ Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit.
 
 - A resposta e os links para os documentos de origem são exibidos na interface do chat.
 
-# 📄 Descrição dos Arquivos
+## 📄 Descrição dos Arquivos
 
 - `app.py`: Ponto de entrada da aplicação Streamlit. Gerencia a autenticação de usuários, a navegação e a renderização das páginas.
 
@@ -115,7 +115,7 @@ Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit.
 
 - `memoria.txt`: Anotações do desenvolvedor, não utilizado pela aplicação em execução.
 
-# 🚀 Como Executar a Etapa
+## 🚀 Como Executar a Etapa
 
 ### Pré-requisitos
 
@@ -129,7 +129,7 @@ Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit.
 
 - Docker instalado.
 
-## Passos para Execução
+### Passos para Execução
 
 - *Configurar Variáveis:* Revise os scripts e atualize os IDs do projeto, Data Store e bucket do GCS conforme necessário.
 
