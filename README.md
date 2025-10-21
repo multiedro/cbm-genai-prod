@@ -4,7 +4,7 @@ Este repositório contém duas etapas principais que utilizam tecnologias do Goo
 
 # ⚙️ Etapa 1: Conversor de Formatos de Arquivos com Apache Beam e Dataflow
 
-Esta etapa utiliza o Apache Beam para orquestrar um pipeline de processamento de dados em lote no Google Cloud Dataflow. A principal função do pipeline é monitorar uma pasta no Google Cloud Storage (GCS), converter diversos formatos de arquivo para o formato PDF e salvar os arquivos resultantes em outra pasta no mesmo bucket.
+Esta etapa, encontrada na pasta *conversor_formatos*, utiliza o Apache Beam para orquestrar um pipeline de processamento de dados em lote no Google Cloud Dataflow. A principal função do pipeline é monitorar uma pasta no Google Cloud Storage (GCS), converter diversos formatos de arquivo para o formato PDF e salvar os arquivos resultantes em outra pasta no mesmo bucket.
 
 ## 🏛️ Visão Geral da Arquitetura
 
@@ -67,7 +67,7 @@ O progresso do job pode ser acompanhado na interface do Dataflow no Console do G
 
 # 💬 Etapa 2: Chatbot de Análise de Documentos com Streamlit e Vertex AI
 
-Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit. A aplicação permite que os usuários façam upload de documentos, que são então indexados no Vertex AI Search. Os usuários podem fazer perguntas em linguagem natural, e o chatbot utiliza um modelo generativo (Gemini) com a técnica de RAG (Retrieval-Augmented Generation) para responder com base no conteúdo dos documentos.
+Esta etapa, encontrada na pasta *interface_modelo*, consiste em uma aplicação web de chatbot construída com Streamlit. A aplicação permite que os usuários façam upload de documentos, que são então indexados no Vertex AI Search. Os usuários podem fazer perguntas em linguagem natural, e o chatbot utiliza um modelo generativo (Gemini) com a técnica de RAG (Retrieval-Augmented Generation) para responder com base no conteúdo dos documentos.
 
 ## 🏛️ Visão Geral da Arquitetura
 
