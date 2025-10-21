@@ -58,7 +58,7 @@ docker push gcr.io/[YOUR_PROJECT_ID]/formats_converter:latest
 ```
 - Preparar o Ambiente no GCS: Crie as pastas de origem e destino no seu bucket e faça o upload dos arquivos a serem convertidos.
 
-## Executar o Pipeline:
+### Executar o Pipeline:
 
 ```python3 formats_converter.py```
 
