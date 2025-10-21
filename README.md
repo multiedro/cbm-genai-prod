@@ -2,7 +2,7 @@
 
 Este repositório contém duas etapas principais que utilizam tecnologias do Google Cloud para processamento e análise de documentos.
 
-**⚙️ Etapa 1**: Conversor de Formatos de Arquivos com Apache Beam e Dataflow
+# ⚙️ Etapa 1: Conversor de Formatos de Arquivos com Apache Beam e Dataflow
 
 Esta etapa utiliza o Apache Beam para orquestrar um pipeline de processamento de dados em lote no Google Cloud Dataflow. A principal função do pipeline é monitorar uma pasta no Google Cloud Storage (GCS), converter diversos formatos de arquivo para o formato PDF e salvar os arquivos resultantes em outra pasta no mesmo bucket.
 
