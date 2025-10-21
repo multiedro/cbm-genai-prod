@@ -107,8 +107,6 @@ Esta etapa, encontrada na pasta *interface_modelo*, consiste em uma aplicação 
 
 - `requirements.txt`: Lista todas as dependências Python para a aplicação.
 
-- `chave_collavini.json`: Arquivo de credenciais de uma Conta de Serviço do Google Cloud para autenticação segura da aplicação.
-
 - `config_credential.yaml`: Arquivo de configuração do streamlit-authenticator, armazenando os detalhes e senhas (hash) dos usuários.
 
 ## 🚀 Como Executar a Etapa
