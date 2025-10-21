@@ -107,13 +107,9 @@ Esta etapa consiste em uma aplicação web de chatbot construída com Streamlit.
 
 - `requirements.txt`: Lista todas as dependências Python para a aplicação.
 
-- `gerar_senhas.ipynb`: Notebook para gerar hashes de senhas de usuários para o arquivo de configuração.
-
 - `chave_collavini.json`: Arquivo de credenciais de uma Conta de Serviço do Google Cloud para autenticação segura da aplicação.
 
 - `config_credential.yaml`: Arquivo de configuração do streamlit-authenticator, armazenando os detalhes e senhas (hash) dos usuários.
-
-- `memoria.txt`: Anotações do desenvolvedor, não utilizado pela aplicação em execução.
 
 ## 🚀 Como Executar a Etapa
 
