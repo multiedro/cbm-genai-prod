@@ -133,10 +133,10 @@ Esta etapa, encontrada na pasta *interface_modelo*, consiste em uma aplicação 
 
 ```
 # Construir a imagem Docker
-docker build -t streamlit-chat-app:latest .
+docker build -t cbm-adv:latest .
 
 # Executar o contêiner
-docker run -p 8080:8080 streamlit-chat-app:latest
+docker run -p 8080:8080 cbm-adv:latest
 ```
 
 - *Acessar a Aplicação:* Abra seu navegador e acesse http://localhost:8080.
